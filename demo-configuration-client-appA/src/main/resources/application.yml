@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: configClientA
+  config:
+    import: configserver:http://localhost:8888
+
+list:
+  demo:
+    values: A,B,C,D,E,F,G
+map:
+  demo:
+    values: '{A:"alpha", B:"beta", G:"gamma"}'
+
+mail:
+  server:
+    url: http://testUrl
+    port: 900
+    userName: dummy
+    password: pass
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: configprops
+        
+## Can override this using command line --spring.profiles.active=qa/uat/prod
+#spring:
+#  profiles:
+#    active: qa

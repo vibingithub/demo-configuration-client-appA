@@ -1,0 +1,6 @@
+mail:
+  server:
+    url: http://ProdUrl
+    port: 7002
+    userName: dummyProd
+    password: pass

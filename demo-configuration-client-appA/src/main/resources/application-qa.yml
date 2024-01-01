@@ -1,0 +1,6 @@
+mail:
+  server:
+    url: http://QAUrl
+    port: 7001
+    userName: dummyQA
+    password: pass

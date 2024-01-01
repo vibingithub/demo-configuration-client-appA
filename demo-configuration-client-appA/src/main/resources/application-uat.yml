@@ -1,0 +1,6 @@
+mail:
+  server:
+    url: http://UATUrl
+    port: 7000
+    userName: dummyUAT
+    password: pass
